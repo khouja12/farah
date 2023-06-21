@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import "./LogIn.css";
+import Navs from "../../components/NavBars/Navs";
 
 function LogIn() {
   const [show, setShow] = useState(false);
@@ -49,6 +50,7 @@ function LogIn() {
           </Button>
         </Modal.Footer>
       </Modal>
+      
     </div>
   );
 }

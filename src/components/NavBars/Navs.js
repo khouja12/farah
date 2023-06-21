@@ -8,7 +8,7 @@ import Button from "@mui/material/Button";
 import "./Navs.css";
 import LogIn from "../../Pages/LogInPages/LogIn";
 
-const pages = [<a href="/" className="inscri" >Accueil</a>, <a href="/inscription" className="inscri" > inscription</a>,];
+const pages = [<a href="/" className="inscri" >Accueil</a>, <a href="/inscription" className="inscri" > inscription</a>, ];
 
 function Navs() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -33,10 +33,10 @@ function Navs() {
     <AppBar className="appBars" position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <img
+         <a href="/"> <img
             width={"90px"}
             src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Logo_BNA_BANK_-_Banque_Nationale_Agricole.png"
-          />
+          /></a>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}></Box>
           <p className="B"> BANQUE NATIONALE AGRICOLE</p>
 
@@ -52,7 +52,7 @@ function Navs() {
             ))}
           </Box>
           <div className="box-log">
-            <LogIn />
+          <LogIn/>
           </div>
         </Toolbar>
       </Container>

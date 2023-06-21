@@ -1,0 +1,12 @@
+.cardd{
+background-color: #00203F !important;
+display: flex !important;
+margin-left: 35%;
+margin-top: 8%;
+}
+.img-stat img{
+    width: 50%;
+    margin-top: 3% ;
+    margin-left: 35%;
+
+}
