@@ -25,12 +25,12 @@ function LogIn() {
           <Form>
             <Form.Group controlId="formBasicEmail">
               <Form.Label>Adresse Email</Form.Label>
-              <Form.Control onChange={handleChange} name="email" type="email" placeholder="Enter email" />
+              <Form.Control onChange={handleChange} name="email" type="email" placeholder="email" />
             </Form.Group>
 
             <Form.Group controlId="formBasicPassword">
               <Form.Label>Mot de passe</Form.Label>
-              <Form.Control onChange={handleChange}  name="password"  type="password" placeholder="Password" />
+              <Form.Control onChange={handleChange}  name="Mot De Passe"  type="password" placeholder="Mot De Passe" />
             </Form.Group>
 
             <a href="" className="mdpo" style={{ color: "blue " }}>

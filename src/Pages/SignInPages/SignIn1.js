@@ -34,46 +34,46 @@ function SignIn() {
                 <Grid container spacing={1}>
                   <Grid item xs={12}>
                     <TextField
-                      placeholder="Enter first name"
-                      label=" Name"
+                      placeholder="nom "
+                      label=" Nom"
                       variant="outlined"
                       fullWidth
                       required
-                      name="name"
+                      name="Nom"
                     />
                   </Grid>
 
                   <Grid item xs={12}>
                     <TextField
-                      type="email"
+                      type="text"
                       placeholder="Enter email"
+                      label="Departement "
+                      variant="outlined"
+                      fullWidth
+                      required
+                      name="text"
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      type="Email"
+                      placeholder="Email"
                       label="Email"
                       variant="outlined"
                       fullWidth
                       required
-                      name="email"
+                      name="Email"
                     />
                   </Grid>
                   <Grid item xs={12}>
                     <TextField
-                      type="number"
-                      placeholder="Enter phone number"
-                      label="Phone"
-                      variant="outlined"
-                      fullWidth
-                      required
-                      name="phone"
-                    />
-                  </Grid>
-                  <Grid item xs={12}>
-                    <TextField
-                      label="password"
+                      label="Mot De Passe"
                       type="password"
-                      placeholder="Type your password here"
+                      placeholder="Mot De Passe"
                       variant="outlined"
                       fullWidth
                       required
-                      name="password"
+                      name="Mot De Passe"
                     />
                   </Grid>
                   <Grid item xs={12}>
