@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import Logo from "./Logo.png"
 import "./NavAdmin.css";
 import { useState } from "react";
 import { Avatar } from "@mui/material";
@@ -20,7 +20,7 @@ export default function NavAdmin() {
 
         <Avatar className="log-btn" onClick={toggleMenu}>
           {" "}
-          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Logo_BNA_BANK_-_Banque_Nationale_Agricole.png " />{" "}
+          <img src={Logo} />{" "}
         </Avatar>
         {isExpanded && (
           <div className="menu">

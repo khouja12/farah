@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
+import Logo from './Logo.png'
 
 import "./Navs.css";
 import LogIn from "../../Pages/LogInPages/LogIn";
@@ -33,9 +34,9 @@ function Navs() {
     <AppBar className="appBars" position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-         <a href="/"> <img
+         <a href="/"> <img 
             width={"90px"}
-            src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Logo_BNA_BANK_-_Banque_Nationale_Agricole.png"
+            src={Logo}
           /></a>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}></Box>
           <p className="B"> BANQUE NATIONALE AGRICOLE</p>
